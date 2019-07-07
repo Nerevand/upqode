@@ -9,7 +9,7 @@ export default class Skils extends Component {
         const $ = window.$;
 
         $(function () {
-            var jqBar = $('.skils');
+            var jqBar = $('.progress-bar');
             var jqBarStatus = true;
 
             $(window).scroll(function () {

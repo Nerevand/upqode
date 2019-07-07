@@ -1,0 +1,38 @@
+.myCard {
+  width: 30%;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  margin: 40px 10px;
+
+  .myCard-wrapper {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    img {
+      min-width: 70px !important;
+    }
+  }
+
+  h4,
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  h4 {
+    color: #4f3485;
+  }
+
+  h6 {
+    color: #242424;
+  }
+
+  p {
+    color: #6d6d6d;
+  }
+}

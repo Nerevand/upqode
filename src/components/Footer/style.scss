@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  min-height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 0 30px;
+
+  h6 {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #7b7b7b;
+    user-select: none;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    li {
+      margin: 0 0 0 25px;
+      cursor: pointer;
+    }
+  }
+}

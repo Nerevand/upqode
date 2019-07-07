@@ -1,0 +1,43 @@
+.products {
+  width: 100%;
+  background-image: url("../../assets//img/png/polygon.png");
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
+
+  .our-products {
+    width: 100%;
+    min-width: 570px !important;
+  }
+
+  .carousel-indicators {
+    li {
+      width: 15px !important;
+      height: 15px !important;
+      border-radius: 50% !important;
+      background-color: #c2c2c2;
+    }
+
+    .active {
+      background-color: #563399;
+    }
+  }
+
+  .carousel-cards {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .carousel-arrows {
+    display: none;
+  }
+}

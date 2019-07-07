@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
 import { SubItem } from './Sub-item';
 
@@ -6,9 +7,9 @@ export function Item(props) {
     const { name } = props;
     return (
         <li className="nav-item nav-item__levelOne dropdown">
-            <a className="nav-link" href="#1" aria-haspopup="true" aria-expanded="false">
+            <NavLink className="nav-link" to="/someway" aria-haspopup="true" aria-expanded="false">
                 {name}
-            </a>
+            </NavLink>
             <ul className="dropdown-menu">
                 <SubItem
                     name='Action 1'

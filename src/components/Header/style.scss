@@ -31,10 +31,6 @@
       background-color: inherit;
     }
 
-    .nav-item:target {
-      color: red;
-    }
-
     .nav-item__levelOne {
       margin: 0 2.2vw 0 0 !important;
     }
@@ -46,6 +42,7 @@
 
       .dropdown-item {
         color: #fff;
+        background-color: inherit;
 
         &:focus {
           color: yellow;
@@ -54,6 +51,9 @@
 
         &:hover {
           color: yellow;
+          background-color: inherit;
+        }
+        &:active {
           background-color: inherit;
         }
       }

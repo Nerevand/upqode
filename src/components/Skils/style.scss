@@ -1,0 +1,76 @@
+.skils {
+  font-family: "Roboto", sans-serif;
+  margin: 50px 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  background-color: #fff;
+
+  .skils-bar {
+    width: 40%;
+    min-width: 300px;
+    margin-right: 10%;
+  }
+
+  .skils-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #444444;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
+
+.progress-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 30px;
+
+  .label {
+    font-size: 30px;
+    color: #f5f5f5;
+    margin-bottom: 0.5rem;
+  }
+
+  .line {
+    width: 100%;
+    height: 15px;
+    background: #ffffff;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px #707070;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+  }
+
+  span {
+    height: 70%;
+    background: #019dd6;
+    border-radius: 3px;
+  }
+}
+
+@media screen and(max-width: 768px) {
+  .skils {
+    flex-direction: column !important;
+    align-items: center;
+
+    .skils-bar {
+        width: 70%;
+        margin-right: 0 !important;
+    }
+  }
+}

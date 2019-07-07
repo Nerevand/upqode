@@ -36,7 +36,7 @@ export default class Skils extends Component {
 
                         let runTime = calculateTime(time, dataCount);
 
-                        let animationLineCount = setInterval(_ => {
+                        setInterval(() => {
                             if (count < dataCount) {
                                 count++;
 
